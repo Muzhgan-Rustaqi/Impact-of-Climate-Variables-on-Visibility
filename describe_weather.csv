@@ -1,0 +1,27 @@
+,Description,Data Type,Count,Mean,Median,Std,Mode,Null Percentage,Unique Values,Most Frequent Count
+tmpf,"Air Temperature in Fahrenheit, typically @ 2 meters",Quantitative,11418,54.56,54.0,18.48,[59.0],0.04%,,
+dwpf,"Dew Point Temperature in Fahrenheit, typically @ 2 meters",Quantitative,11416,45.75,48.0,18.53,[59.0],0.06%,,
+relh,Relative Humidity in %,Quantitative,11416,75.4,80.83,20.79,[100.0],0.06%,,
+drct,Wind Direction in degrees from *true* north,Quantitative,11141,162.4,180.0,122.03,[0.0],2.47%,,
+sknt,Wind Speed in knots,Quantitative,11415,6.03,6.0,4.7,[0.0],0.07%,,
+alti,Pressure altimeter in inches,Quantitative,11312,30.02,30.01,0.23,[30.03],0.97%,,
+mslp,Sea Level Pressure in millibar,Quantitative,8928,1017.29,1017.0,7.89,[1017.3],21.84%,,
+vsby,Visibility in miles,Quantitative,11422,8.91,10.0,2.59,[10.0],0.01%,,
+gust,Wind Gust in knots,Quantitative,1855,20.27,19.0,4.62,[18.0],83.76%,,
+skyc4,Sky Level 4 Coverage,Quantitative,0,,,,,100.0%,,
+skyl1,Sky Level 1 Altitude in feet,Quantitative,6484,3022.92,1900.0,3015.17,[400.0],43.24%,,
+skyl2,Sky Level 2 Altitude in feet,Quantitative,2177,4528.2,3700.0,2911.25,[6000.0],80.94%,,
+skyl3,Sky Level 3 Altitude in feet,Quantitative,805,5730.93,5000.0,2714.98,[6000.0],92.95%,,
+skyl4,Sky Level 4 Altitude in feet,Quantitative,0,,,,,100.0%,,
+ice_accretion_1hr,Ice Accretion over 1 Hour (inches),Quantitative,0,,,,,100.0%,,
+ice_accretion_3hr,Ice Accretion over 3 Hours (inches),Quantitative,0,,,,,100.0%,,
+ice_accretion_6hr,Ice Accretion over 6 Hours (inches),Quantitative,0,,,,,100.0%,,
+peak_wind_gust,Peak Wind Gust (from PK WND METAR remark) (knots),Quantitative,452,29.56,29.0,3.47,[26.0],96.04%,,
+peak_wind_drct,Peak Wind Gust Direction (from PK WND METAR remark) (deg),Quantitative,452,267.57,290.0,54.72,[290.0],96.04%,,
+feel,Apparent Temperature (Wind Chill or Heat Index) in Fahrenheit,Quantitative,11414,53.09,54.0,21.33,[59.0],0.08%,,
+snowdepth,,Quantitative,0,,,,,100.0%,,
+p01i,"One hour precipitation for the period from the observation time to the time of the previous hourly precipitation reset. This varies slightly by site. Values are in inches. This value may or may not contain frozen precipitation melted by some device on the sensor or estimated by some other means. Unfortunately, we do not know of an authoritative database denoting which station has which sensor.",Qualitative,11420,,,,['0.00'],0.03%,47,9365
+skyc1,Sky Level 1 Coverage,Qualitative,11393,,,,['CLR'],0.26%,6,4909
+skyc2,Sky Level 2 Coverage,Qualitative,2177,,,,['OVC'],80.94%,3,964
+skyc3,Sky Level 3 Coverage,Qualitative,805,,,,['OVC'],92.95%,3,656
+wxcodes,Present Weather Codes (space separated),Qualitative,2351,,,,"['-RA', 'BR']",79.42%,29,576
