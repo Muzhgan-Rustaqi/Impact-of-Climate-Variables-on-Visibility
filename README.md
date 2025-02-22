@@ -1,4 +1,4 @@
-# Title: Climate Indicators Impact on Visibility
+## Title: Climate Indicators Impact on Visibility
 #### Group Members
 1. Birendra Khimding
 2. Muzhgan Rustaqui
