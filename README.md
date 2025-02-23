@@ -20,5 +20,28 @@ identify the key factors that can best predict visibility.
 
 
 #### Installation Instructions: 
-Only basic statistical python imports were used for this project 
+To use the project:
+* Get git(version controll) on your system
+* colne the project using the URL https://github.com/Muzhgan-Rustaqi/Weather-Impact-on-Air-Traffic-Management.git
+* Use python version 3.11.11 and above
+* Install librarys:
+        * pandas
+        * numpy
+        * statsmodels
+        * spicy
+        * ipython
+        * seaborn
+        * matplotlib
+        * scikit-learn
+
+
+#### Method Used:
+* Explotory Data Analysis (EDA)
+* Inferential Statistics
+* Ordinay Least Squares (OLS)
+* Generalized Linear Models (GLM)
+
+
+
+
 
